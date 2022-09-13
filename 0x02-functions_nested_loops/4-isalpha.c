@@ -4,7 +4,7 @@
 * _isalpha - checks for alphabetic character
 *
 * Description: checks for alphabetic character
-*@c
+* @c: is a variable
 *
 * Return: 1 if character is a letter
 *         0 if not

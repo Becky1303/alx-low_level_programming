@@ -5,7 +5,7 @@
 * whose values do not exceed 4,000,000
 *
 * Description: finds and prints fibonacci numbers
-* 
+*
 * Return: 0
 */
 int main(void)

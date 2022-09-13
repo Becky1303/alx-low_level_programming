@@ -3,13 +3,14 @@
 /**
 * print_sign - prints the sign of a number
 *
-* Description: prints the sign of a number
+* Description: prints the sign
 *
-*@n: is a variable
+* @n: is a variable
 * Return: 1 for positive number
 *         0 for 0
 *        -1 for negative number
 */
+
 int print_sign(int n)
 {
 	if (n < 0)
