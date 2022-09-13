@@ -13,9 +13,9 @@ int main(void)
 {
 	char p[] = "_putchar";
 	int y;
-	for (y = 0; y < 8; p++)
+	for (y = 0; y < 8; y++)
 	{
-		_putchar(t[y]);
+		_putchar(p[y]);
 	}
 	_putchar('\n');
 	return (0);
