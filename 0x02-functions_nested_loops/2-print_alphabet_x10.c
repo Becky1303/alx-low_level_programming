@@ -13,6 +13,7 @@ void print_alphabet_x10(void)
 {
 	int r;
 	int h;
+
 	r = 1;
 	while (r < 11)
 	{

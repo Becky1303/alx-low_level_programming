@@ -5,6 +5,7 @@
 *
 * Description: prints the sign of a number
 *
+*@n: is a variable
 * Return: 1 for positive number
 *         0 for 0
 *        -1 for negative number

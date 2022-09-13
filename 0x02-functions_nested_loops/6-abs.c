@@ -5,6 +5,7 @@
 *
 * Description: computes the absolute value of an integer
 *
+*@f: f is an integer.
 * Return: Integer number
 */
 int _abs(int f)
