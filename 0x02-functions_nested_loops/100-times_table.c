@@ -3,9 +3,8 @@
 /**
 * print_times_table -  prints n times table
 * starting with 0
-*
 * Description: prints n times table
-*
+* @n: is a variable
 * Return: void
 */
 
