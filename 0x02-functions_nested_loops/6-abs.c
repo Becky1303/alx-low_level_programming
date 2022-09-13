@@ -19,7 +19,7 @@ int _abs(int f)
 	{
 		return (f);
 	}
-	else if (f < 0)
+	else
 	{
 		return (-f);
 	}
