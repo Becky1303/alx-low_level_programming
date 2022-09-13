@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * print_times_table -  prints n times table
 * starting with 0
@@ -7,12 +6,9 @@
 * @n: is a variable
 * Return: void
 */
-
 void print_times_table(int n)
 {
-	int r;
-	int c;
-	int prod_ans;
+	int r, c, prod_ans;
 
 	if (n >= 0 && n < 15)
 	{
