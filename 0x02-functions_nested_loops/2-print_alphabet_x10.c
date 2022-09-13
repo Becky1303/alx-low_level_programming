@@ -20,7 +20,7 @@ void print_alphabet_x10(void)
 		h = 'a';
 		while (h <= 'z')
 		{
-			_putchar(b);
+			_putchar(h);
 			h++;
 		}
 		_putchar('\n');
