@@ -1,12 +1,11 @@
 #include <stdio.h>
+
 /**
 * main - finds and prints the sum of the even-valued terms
 * whose values do not exceed 4,000,000
 *
-*
 * Description: finds and prints fibonacci numbers
-* whose values do not exceed 4,000,000
-*
+* 
 * Return: 0
 */
 int main(void)
