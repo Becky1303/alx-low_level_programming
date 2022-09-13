@@ -5,7 +5,7 @@
 * followed by a new line
 *
 * Description: prints all natural numbers from n to 98
-*
+* @n: is a variable
 * Return: void
 */
 
