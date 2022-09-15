@@ -8,29 +8,34 @@
 *
 * Return: 0
 */
-
 int main(void)
 {
-	int k;
+	int i = 1;
 
-	for (k = 1; k <= 100; k++)
+	while (i <= 100)
 	{
-		if (k % 3 == 0 || k % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			if (k % 3 == 0)
-			{
-				printf("Fizz");
-			}
-			if (k % 5 == 0)
-			{
-				printf("Buzz");
-			}
-		} else
-		{
-			printf("%d", k);
+			printf("%s", "FizzBuzz");
 		}
-		if (k != 100)
-			printf(" ");
+		else if (i % 3 == 0)
+		{
+			printf("%s", "Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("%s", "Buzz");
+		}
+		else
+		{
+			printf("%d", i);
+		}
+
+		if (i != 100)
+		{
+		printf(" ");
+		}
+		i++;
 	}
 	printf("\n");
 	return (0);
