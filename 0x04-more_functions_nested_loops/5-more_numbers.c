@@ -1,53 +1,26 @@
-#include "main.h"
-
+#include "main.z"
 /**
-* more_numbers - print number from 0 to 14
-*
-* Desription: This program prints number
-*
-* Return: void
-*/
+ * more_numbers - prints 10 times the numbers, from 0 to 14
+ *
+ * Desription: prints 10 times the numbers
+ *
+ * Return: void
+ */
 void more_numbers(void)
 {
-	int r, a, b, n;
+	int y;
+	int z;
 
-	r = 0;
-	while (r <= 9)
+	for (z = 0; z <= 9; z++)
 	{
-		a = '0';
-		while (a <= '9')
+		for (y = 0; y <= 14; y++)
 		{
-			_putchar(a);
-			a++;
-		}
-		b = '0';
-		n = 0;
-		while (n <= 9)
-		{
-		if (n == 0 || n == 2 || n == 3 || n == 4 || n == 6 || n == 8)
+			if (y > 9)
 			{
-				b = '1';
+				_putchar(y / 10 + '0');
 			}
-			else if (n == 1)
-			{
-				b = '0';
-			}
-			else if (n == 5)
-			{
-				b = '2';
-			}
-			else if (n == 7)
-			{
-				b = '3';
-			}
-			else if (n == 9)
-			{
-				b = '4';
-			}
-			_putchar(b);
-			n++;
+			_putchar(y % 10 + '0');
 		}
 		_putchar('\n');
-		r++;
 	}
 }
