@@ -1,9 +1,13 @@
 #include "main.h"
 
 /**
- * print_number - prints number
+ * print_number - prints an integer
+ *
+ * Description : printing of integer
  *
  * @n: integer to print to character
+ *
+ * Return: Always 0
  */
 void print_number(int n)
 {
