@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_line - draws a straight line in the terminal
+* print_line - draws a straight line
 *
 *@z: is an integer
 * Description: This program draws a line
@@ -19,6 +19,6 @@ void print_line(int z)
 	}
 	if (z <= 0 || z  >= 0)
 	{
-		_putchar('\z');
+		_putchar('\n');
 	}
 }
