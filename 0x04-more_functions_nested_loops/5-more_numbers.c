@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* more_numbers - this prints numbers from 0 to 14
+* more_numbers - print number from 0 to 14
 *
 * Desription: This program prints number
 *
-* Return: is void.
+* Return: void
 */
 void more_numbers(void)
 {
@@ -14,8 +14,8 @@ void more_numbers(void)
 	r = 0;
 	while (r <= 9)
 	{
-		a = '0';
-		while (a <= '9')
+		a = 0;
+		while (a <= 9)
 		{
 			_putchar(a);
 			a++;
