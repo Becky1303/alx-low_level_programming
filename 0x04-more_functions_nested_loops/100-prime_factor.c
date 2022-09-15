@@ -6,7 +6,7 @@
 *
 * Description: Print prime factor
 *
-* Return: void
+* Return: Always 0.
 */
 
 int main(void)
