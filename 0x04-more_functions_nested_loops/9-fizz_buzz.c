@@ -2,12 +2,16 @@
 #include <stdio.h>
 
 /**
-* main - prints 1 to 100
-* 
-* Description: prints FizzBuzz for multiples of 3 and 5
+* main - prints the numbers from 1 to 100
 *
-* Return: 0
+* Description: function prints the numbers from 1 to 100
+* for multiples of three, print Fizz
+* for multiples of five, print Buzz
+* For multiples of both three and five print FizzBuzz.
+*
+* Return: Always 0.
 */
+
 int main(void)
 {
 	int i = 1;
