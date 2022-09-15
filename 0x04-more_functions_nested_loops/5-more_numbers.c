@@ -2,9 +2,8 @@
 
 /**
 * more_numbers - prints 10 times the numbers
-*				 from 0 to 14, followed by y new line
 *
-* Desription: Prints 10 times the number
+* Desription: Prints from 0 to 14
 *
 * Return: Void
 */
