@@ -17,18 +17,18 @@ int main(void)
 	for (k = 1; k < 101; k++)
 	{
 		if (k % 5 == 0 && k % 3 == 0)
-			 _putchar("FizzBuzz ");
+			printf("FizzBuzz ");
 		else if (k % 5 == 0)
 			if (k == 100)
-				 _putchar("Buzz");
+				printf("Buzz");
 			else
-				 _putchar("Buzz ");
+				printf("Buzz ");
 		else if (k % 3 == 0)
-			 _putchar("Fizz ");
+			printf("Fizz ");
 		else
-			 _putchar("%d ", k);
+			printf("%d ", k);
 	}
-	 _putchar("\n");
+	printf("\n");
 
 	return (0);
 }
