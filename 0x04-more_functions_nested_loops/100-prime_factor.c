@@ -12,22 +12,19 @@
 
 int main(void)
 {
-	long int x = 612852475143;
-	long int y = 2;
+	unsigned int t = 2;
+	unsigned long n = 612852475143;
 
-	while (x != y)
+	while (t != n)
 	{
-		if (x % y == 0)
+		if (n % t == 0)
 		{
-			x = (x / y);
-		}
-		else
+			n = n / t;
+		} else
 		{
-			y++;
+			t++;
 		}
 	}
-
-	printf("%li\n", x);
-
+	printf("%lu\n", n);
 	return (0);
 }
