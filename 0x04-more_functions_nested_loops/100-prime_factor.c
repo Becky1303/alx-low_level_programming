@@ -11,19 +11,22 @@
 
 int main(void)
 {
-	unsigned int a = 2;
-	unsigned long n = 612852475143;
+	long int i = 612852475143;
+	long int j = 2;
 
-	while (a != n)
+	while (i != j)
 	{
-		if (n % a == 0)
+		if (i % j != 0)
 		{
-			n = n / a;
-		} else
+			j++;
+		}
+		else
 		{
-			a++;
+			i = (i / j);
 		}
 	}
-	printf("%lu\n", n);
+
+	printf("%li\n", i);
+
 	return (0);
 }
