@@ -28,7 +28,7 @@ int main(void)
 		else
 			printf("%d ", k);
 	}
-	printf("\k");
+	printf("\n");
 
 	return (0);
 }
