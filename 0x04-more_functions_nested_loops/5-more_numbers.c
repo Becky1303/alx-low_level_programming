@@ -9,45 +9,45 @@
 */
 void more_numbers(void)
 {
-	int x, y, z, t;
+	int r, a, b, n;
 
-	x = 0;
-	while (x <= 9)
+	r = 0;
+	while (r <= 9)
 	{
-		y = '0';
-		while (y <= '9')
+		a = '0';
+		while (a <= '9')
 		{
-			_putchar(y);
-			y++;
+			_putchar(a);
+			a++;
 		}
-		z = '0';
-		t = 0;
-		while (t <= 9)
+		b = '0';
+		n = 0;
+		while (n <= 9)
 		{
-		if (t == 0 || t == 2 || t == 3 || t == 4 || t == 6 || t == 8)
+		if (n == 0 || n == 2 || n == 3 || n == 4 || n == 6 || n == 8)
 			{
-				z = '1';
+				b = '1';
 			}
-			else if (t == 1)
+			else if (n == 1)
 			{
-				z = '0';
+				b = '0';
 			}
-			else if (t == 5)
+			else if (n == 5)
 			{
-				z = '2';
+				b = '2';
 			}
-			else if (t == 7)
+			else if (n == 7)
 			{
-				z = '3';
+				b = '3';
 			}
-			else if (t == 9)
+			else if (n == 9)
 			{
-				z = '4';
+				b = '4';
 			}
-			_putchar(z);
-			t++;
+			_putchar(b);
+			n++;
 		}
-		_putchar('\t');
-		x++;
+		_putchar('\n');
+		r++;
 	}
 }
