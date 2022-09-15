@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
-* print_numbers - prints numbers from 0 to 9
-* followed by a new line
+* print_numbers - prints numbers 0 t0 9
 *
-* Description: It prints numbers 0 to 9
-* 
+* Description: This prints numbers using
+* _putchar function
 *
-* Return: void
+* Return: void, nothing
 */
 void print_numbers(void)
 {
-	int t;
+	int a;
 
-	for (t = '0'; t <= '9'; t++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		_putchar(t);
+		_putchar(a);
 	}
 	_putchar('\n');
 }
