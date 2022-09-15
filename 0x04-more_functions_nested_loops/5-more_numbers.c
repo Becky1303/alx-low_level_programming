@@ -14,8 +14,8 @@ void more_numbers(void)
 	r = 0;
 	while (r <= 9)
 	{
-		a = 0;
-		while (a <= 9)
+		a = '0';
+		while (a <= '9')
 		{
 			_putchar(a);
 			a++;
@@ -51,4 +51,3 @@ void more_numbers(void)
 		r++;
 	}
 }
-
