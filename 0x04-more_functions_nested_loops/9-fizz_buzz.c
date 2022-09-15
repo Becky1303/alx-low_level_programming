@@ -3,9 +3,8 @@
 
 /**
 * main - prints 1 to 100
-* 		 prints Fizz for multiples of 3
-*		 prints Buzz for multiples of 5
-*		 prints FizzBuzz for multiples of 3 and 5
+* 
+* Description: prints FizzBuzz for multiples of 3 and 5
 *
 * Return: 0
 */
@@ -34,5 +33,4 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
-	return (0);
 }
