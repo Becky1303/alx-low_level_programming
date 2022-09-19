@@ -8,7 +8,7 @@
 *
 * Return: Void
 */
- 
+
 void reset_to_98(int *z)
 {
 	*z = 98;
