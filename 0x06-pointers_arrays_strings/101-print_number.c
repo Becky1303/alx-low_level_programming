@@ -10,7 +10,7 @@
 
 void print_number(int n)
 {
-	int divisor, sign;
+	int divisor, s;
 
 	divisor = 1000000000;
 	s = 1;
