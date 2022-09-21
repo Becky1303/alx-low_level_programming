@@ -1,25 +1,48 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * infinite_add - adds two numbers
+ * @n1: first string variable
+ * @n2: second string variable
+ * @r: result buffer
+ * @size_r: size of result buffer
+ *
+ * Return: char pointer to buffer
+ */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int l1 = _strlen(n1), l2 = _strlen(n2), i = 0, a, b, c = 0;
+	int i, j, k, l, m, n;
 
-	for (l1--, l2--, size_r--; l1 >= 0 || l2 >= 0 || c; l1--, l2--, i++)
+	for (i = 0; n1[i]; i++)
+		;
+	for (j = 0; n2[j]; j++)
+		;
+	if (i > size_r || j > size_r)
+		return (0);
+	m = 0;
+	for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
 	{
-		if (i >= size_r)
-			return (0);
-		a = 0;
-		b = 0;
-		if (l1 >= 0)
-			a = n1[l1] - '0';
-		if (l2 >= 0)
-			b = n2[l2] - '0';
-		a = a + b + c;
-		c = a / 10;
-		a %= 10;
-		r[i] = a + '0';
+		n = m;
+		if (i >= 0)
+			n += n1[i] - '0';
+		if (j >= 0)
+			n += n2[j] - '0';
+		if (i < 0 && j < 0 && n == 0)
+		{
+			break;
+		}
+		m = n / 10;
+		r[k] = n % 10 + '0';
 	}
-	r[i] = '\0';
-	return (rev_string(r));
+	r[k] = '\0';
+	if (i >= 0 || j >= 0 || m)
+		return (0);
+	for (k -= 1, l = 0; l < k; k--, l++)
+	{
+		m = r[k];
+		r[k] = r[l];
+		r[l] = m;
+	}
+	return (r);
 }
