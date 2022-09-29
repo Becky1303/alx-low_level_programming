@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* wildcmp - that returns 1 if a string is a palindrome and 0 if not
+* _strlen_recursion - that returns 1 if a string is a palindrome and 0 if not
 * @s: string
 * Return: int
 */
