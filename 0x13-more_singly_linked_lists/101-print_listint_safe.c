@@ -1,10 +1,11 @@
 #include "lists.h"
 
 /**
-* free_listp - prints a linked list
-* @head: list of type listint_t to print
-* Return: number of nodes in list
-*/
+ * free_listp - frees a linked list
+ * @head: head of a list.
+ *
+ * Return: no return.
+ */
 void free_listp(listp_t **head)
 {
 	listp_t *temp;
