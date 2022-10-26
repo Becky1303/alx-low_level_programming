@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
-* free_listint_safe - frees a linked list
+* free_listp2 - frees a linked list
 * @h: pointer to first node in linked list
 * Return: number of elements in the list
 */
