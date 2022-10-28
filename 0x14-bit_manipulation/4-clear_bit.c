@@ -8,11 +8,10 @@
 */
 int clear_bit(unsigned long int *j, unsigned int index)
 {
-	unsigned long int reducer = 0x01;
-
-	reducer = ~(reducer << index);
-	if (reducer == 0x00)
+	if (index >= (sizeof(unsigned long int) * 8))
 		return (-1);
-	*j &= reducer;
+
+	*j &= ~(1 << index);
+
 	return (1);
 }

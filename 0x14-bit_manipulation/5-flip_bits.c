@@ -9,13 +9,13 @@
 */
 unsigned int flip_bits(unsigned long int j, unsigned long int k)
 {
-	unsigned long int flips = 0, xor = (j ^ k), reducer = 0x01;
+	unsigned long int xor = j ^ k, bits = 0;
 
-	while (reducer <= xor)
+	while (xor > 0)
 	{
-		if (reducer & xor)
-			flips++;
-		reducer <<= 1;
+		bits += (xor & 1);
+		xor >>= 1;
 	}
-	return (flips);
+
+	return (bits);
 }
