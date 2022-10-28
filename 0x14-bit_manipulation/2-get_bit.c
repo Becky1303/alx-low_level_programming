@@ -4,7 +4,7 @@
 * get_bit - gets bit at an index
 * @j: number to be checked for index bit
 * @index: bit index
-* Return: 0 (success), -1 (error)
+* Return: 0 for success, -1 for error
 */
 int get_bit(unsigned long int j, unsigned int index)
 {
