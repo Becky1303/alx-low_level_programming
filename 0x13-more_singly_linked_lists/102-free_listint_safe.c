@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+
 /**
 * free_listp2 - frees a linked list
 * @h: pointer to first node in linked list
